@@ -3,7 +3,7 @@ from requests_html import HTMLSession
 import requests
 import glob
 session = HTMLSession()
-cookies = dict(ageGatePass='true')
+cookies = dict(pagGDPR='true')
 import subprocess
 from sys import platform
 
